@@ -1,0 +1,24 @@
+.profile{
+    text-align: center;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+h1, h2, p{
+    text-align: center;
+    /*background-color: burlywood;*/
+}
+.items{
+    display: inline-block;
+}
+
+.tieu_de{
+    text-align: left;
+    width: 40%;
+}
+
+.noi_dung{
+}
+
+
