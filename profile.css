@@ -1,0 +1,47 @@
+body{
+	background-image:url(imgcnpm/bgpro.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+	background-size: cover;
+}
+span.ten, .msv, .quequan{
+	text-align:center;
+    font-size: 30px;
+}
+span.chitiet{
+	text-align:center;
+    font-size: 40px;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+.detail{
+	float:left;
+	margin-top: 120px;
+    margin-left: 10px;
+}
+.chitiet{
+	margin-left: 180px;
+    font-weight: bold;
+}
+.avt{
+	width:300px;
+	height:340px;
+	border: solid;
+}
+.overal{
+	text-align:center;
+	float:left;
+	margin-right:20px;
+	margin-left:90px;
+	padding:40px;
+	margin-top:20px;
+}
+span{
+	font-size:30px;
+}
+a{
+	font-size:25px;
+}
