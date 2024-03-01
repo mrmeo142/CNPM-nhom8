@@ -1,0 +1,36 @@
+html {
+    background-color: antiquewhite;
+}
+.head {
+    background-color: orange;
+    margin: 10px auto;
+    text-align: center;
+    padding: 30px;
+    
+}
+.main-content {
+    display: flex;
+}
+.infor {
+    flex-basis: 40% ;
+   margin: 100px auto;
+   text-align: center;
+   height: px;
+   background-clip: content-box;
+}
+.image {
+    flex-basis: 30% ;
+    margin: 100px auto;
+    width: 100px;
+    border: outset 10px;
+}
+.para {
+    margin: 100px auto;
+    text-align: center;
+    width: 1000px;
+}
+.foot {
+    background-color: darksalmon;
+    padding: 50px;
+  flex-basis: 30%;
+}
