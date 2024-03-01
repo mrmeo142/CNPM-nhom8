@@ -1,24 +1,35 @@
-.profile{
-    text-align: center;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right:auto;
-    width: 50%;
+html{
+    box-sizing: border-box;
 }
-h1, h2, p{
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .left{
+    width: 25%;
+  }
+
+  .right{
+    width: 75%;
+  }
+
+
+h1, h2{
     text-align: center;
     /*background-color: burlywood;*/
-}
-.items{
-    display: inline-block;
-}
-
-.tieu_de{
-    text-align: left;
-    width: 40%;
-}
-
-.noi_dung{
 }
 
 
