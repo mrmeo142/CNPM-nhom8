@@ -81,4 +81,13 @@ img {
     margin-right: 30px;
 }
 
+.contact {
+    margin : 15px 60px;
+}
+
+.fa-brands {
+    color: #b76f22;
+    margin: 0px 5px;
+    font-size: large;
+}
 
