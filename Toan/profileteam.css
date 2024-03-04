@@ -18,29 +18,34 @@ body{
     height:50px;
     float:left;
     margin-top: 50px;
+    position:relative;
 }
 .button{
-    width:150px;
-    height:50px;
+    width: 130px;
+    height: 40px;
     background-color: #e6ff00;
-	border-radius: 40px;
-	font-weight:bold;
+    border-radius: 40px;
+    font-weight: bold;
     cursor: pointer;
-    font-size:20px;
-    margin-left: 60px;
+    font-size: 15px;
+    margin-left: 130px;
+    margin-top: -30px;
 }
 a{
     color:black;
     text-decoration: none;
 }
 .signin{
-    background-color:white;
+    background-color: #ffffffe3;
     width: 230px;
     height: 195px;
     border-radius: 10px;
-    z-index:999;
-    position:relative;
-    display:none;
+    z-index: 999;
+    position: absolute;
+    display: none;
+    margin-left: 1070px;
+    margin-top: 70px;
+    cursor: pointer;
 }
 .submit{
     margin-left: 85px;
@@ -52,8 +57,13 @@ hr{
     width: 160px;
 }
 .si{
-    margin-left: 87px;
+    margin-left: 80px;
     font-size: 20px;
+}
+.x{
+    margin-left: 40px;
+    font-size: 13px;
+    cursor: pointer;
 }
 #item{
     width:25px;

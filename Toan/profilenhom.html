@@ -3,6 +3,17 @@
         <title>Profile team</title>
         <link href="profileteam.css" rel="stylesheet" type="text/css" />
     </head> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#signin').click(function(){
+                $(".signin").show();
+            });
+            $('.x').click(function(){
+                $(".signin").hide();
+            });
+        });
+    </script>
     <body>
        
         <div class="nhom">
@@ -13,7 +24,8 @@
                 <button id="signin" class="button">For Member</button>
             </div>             
             <div class="signin">
-                <span class="si">Sign in</span><hr>
+                <span class="si">Sign in</span>
+                <a class="x">close</a><hr>
                 <form action=""  method="POST">
                     <div class="baomat">
                         <div class="icon"><img id="item" src="imgcnpm/man.png"></img></div>
@@ -87,6 +99,5 @@
                 </form>
             </div>
         </div>
- <script src="profile.js"></script>
     </body>
 </html>
