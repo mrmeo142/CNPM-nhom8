@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
     background-color: #f6e5d9;
 }
@@ -81,87 +81,13 @@ img {
     margin-right: 30px;
 }
 
-=======
-body {
-    background-color: #f6e5d9;
+.contact {
+    margin : 15px 60px;
 }
 
-/* .montserrat-<uniquifier> {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-   
-.dancing-script-<uniquifier> {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-   */
-
-.picture {
-    float: left;
-    height: 560px;
-    width: 600px;
+.fa-brands {
+    color: #b76f22;
+    margin: 0px 5px;
+    font-size: large;
 }
 
-img {
-    height: 450px;
-    border-top-right-radius: 300px;
-    border-top-left-radius: 300px;
-    margin-left: 60px;
-    margin-top: 50px;
-}
-
-.infor {
-    float: left;
-    width: 550px;
-    margin: 75px 20px 100px 50px;
-}
-
-.infor_name {
-    padding: 30px 0px;
-    border-bottom: solid #e5c0a5 3px;
-}
-
-#student {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    text-decoration: underline;
-    color: #d89753;
-    font-size: medium;
-}    
-
-#name {
-    font-family: "Dancing Script", cursive;
-    font-size: 50px;
-    margin: 20px 0px 10px 0px;
-}
-
-#msv {
-    margin: 0px 0px;
-    font-size:medium;
-    letter-spacing: 2px;
-    font-weight: 600;
-    color: #d89753;
-    font-family: "Montserrat", sans-serif;
-    
-}
-
-.infor_detail {
-    font-family: "Montserrat", sans-serif;
-    margin-top: 30px;
-}
-
-
-.infor_detail ul {
-    font-size: small;
-    line-height: 25px;
-    font-weight: 600;
-    opacity: 0.7;
-    margin-right: 30px;
-}
-
->>>>>>> 60979fb6d1433199481894bd9fabc7dd1fbd8be5
