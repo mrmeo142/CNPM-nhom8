@@ -217,3 +217,96 @@ footer{
 #phone{
 	background:url(img/phone.jpg);
 }
+/*---------------Cart-------------------------*/
+.mycart{
+	font-size: 40px;
+    margin-left: 230px;
+}
+.left{
+	width: 727px;
+    float: left;
+    margin-top: 23px;
+	height:auto;
+}
+.left table{
+	width: 100%;
+    text-align: center;
+}
+.left table th{
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size: 25px;
+	color:#333;
+	border-collapse: collapse;
+	border-bottom: 2px solid #dddddd;
+}
+.left table p{
+	font-size:12px;
+	color:#333;
+}
+.left table input{
+	width: 30px;
+}
+.left table span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #dddddd;
+	cursor: pointer;
+}
+.left table td{
+	padding: 20px 50px 20px 62px;
+	border-bottom:2px solid #dddddd;
+}
+.left table td{
+	font-size:20px;
+
+}
+.right{
+	float:left;
+	width:400px;
+	flex:1;
+	padding-left:12px;
+	border-left:2px solid #dddddd;
+	height:500px;
+	margin-left: 10px;
+}
+.right table{
+	width: 100%;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+.right table th{
+	padding-bottom:30px;
+	font-size:25px;
+	color:#333;
+	border-collapse: collapse;
+}
+.right table td{
+	font-size:25px;
+	color:#333;
+	padding:6px 0;
+}
+.right table tr{
+	margin-left:5px;
+}
+.right table tr:nth-child(3) td{
+	border-bottom:2px solid #dddddd;
+}
+.pay{
+	font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+	margin-bottom: 10px;
+}
+.methodpayment{
+	margin-left:15px;
+}
+.submit{
+	margin-left: 175px;
+    margin-top: 20px;
+}
+.submit button{
+	width:100px;
+	height:30px;
+}
