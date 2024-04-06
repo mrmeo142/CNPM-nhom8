@@ -1,38 +1,147 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card Design - Easy Tutorials</title>
+    <title>Food Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <div class="profile-box">
-            <img src="images/menu.png" class="menu-icon">
-            <img src="images/setting.png" class="setting-icon">
-            <img src="images/profile.jpg" class="Profile-pic">
-            <h3>Doan Ngoc Dai</h3>
-            <p>College Student, Third-year </p>
-            <p> Posts and Telecommunications Institute of Technology, Vietnam</p>
-            <div class=" social-media">
-                <a href ="https://www.facebook.com/profile.php?id=100025495868823&mibextid=ibOpuV"> <img src=" images/facebook.png"></a>
-                <a href="https://www.instagram.com/gi.mitzjr?igsh=MWVrcG14MnRneTRoMw%3D%3D&utm_source=qr"> <img src="images/instagram.png"></a>
-                <a href="https://www.reddit.com/u/DoubleDnD-1/s/KNgxo6I7YY"> <img src="images/reddit.png"></a>
+
+    <section id="About">
+        <nav>
+            <div class="logo">
+                <img src="image/logo.png">
             </div>
-            <button type="button">Follow</button>
-            <div class="profile-bottom">
-                <p>Learn More about Me</p>
-                <img src="images/arrow.png">
-                <p>***</p>
-                <p>DATE OF BIRTH: 16th November 2003 (21)</p>
-                <p>MAJOR: Electronics and Telecommunications</p>
-                <p>CONTACT: 0968859565</p>
-                <p>GMAIL: doanngocdai.doan@gmail.com</p>
-                <p>BIRTHPLACE: Ha Noi, Vietnam</p>
+
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Order">Order</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
+
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>Get Fresh<span>Food</span><br>in a Easy Way</h1>
+            </div>
+
+            <div class="main_image">
+                <img src="image/main_img.png">
+            </div>
+
         </div>
+
+        <p>
+            "GOOD FOOD AS ALWAYS, ready to serve all the time with great enjoyment for our customers"
+            Welcome to our restaurant, where the warm ambiance and delightful culinary experience await you. Our establishment is known for its cozy atmosphere, perfect for intimate gatherings or casual dining with friends and family. We take great pride in offering an extensive menu featuring a diverse range of dishes, catering to various tastes and dietary preferences. Our professional and friendly staff ensures that every guest feels welcome and well taken care of. Whether you're in the mood for a hearty meal or a light snack, our restaurant promises a memorable dining experience. Come and enjoy the flavors of our delicious creations, and let us make your visit truly special. Muchas gracias..!
+        </p>
+
+    </section>
+
+    <!--Order-->
+
+    <div class="order" id="Order">
+        <h1><span>Order</span>Now</h1>
+
+        <div class="order_main">
+
+            <div class="order_image">
+                <img src="image/order_image.png">
+            </div>
+
+            <form action="#">
+
+                <div class="input">
+                    <p>Name</p>
+                    <input type="text" placeholder="Your Name">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+                <div class="input">
+                    <p>Number</p>
+                    <input placeholder="Your Number">
+                </div>
+
+                <div class="input">
+                    <p>How Much</p>
+                    <input type="number" placeholder="Quantities">
+                </div>
+
+                <div class="input">
+                    <p>You Order</p>
+                    <input placeholder="Cart">
+                </div>
+
+                <div class="input">
+                    <p>Address</p>
+                    <input placeholder="Your Address">
+                </div>
+
+                <a href="#" class="order_btn">Order Now</a>
+
+            </form>
+
+        </div>
+
     </div>
 
+    <!--Footer-->
 
+    <footer>
+        <div class="footer_main">
+
+            <div class="footer_tag">
+                <h2>Location</h2>
+                <p>Ha Noi</p>
+                <p>Ho Chi Minh city</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Menu</h2>
+                <p>Home</p>
+                <p>Gallery</p>
+                <p>Payment methods</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact/About us</h2>
+                <p>1900 1xxx</p>
+                <p>Articles</p>
+                <p>Improvements</p>
+                <p>Survey</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Service</h2>
+                <p>Fast Delivery</p>
+                <p>Easy Payments</p>
+                <p>24 x 7 Service</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Follows</h2>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+        </div>
+
+    </footer>
+ 
 </body>
+</html>
