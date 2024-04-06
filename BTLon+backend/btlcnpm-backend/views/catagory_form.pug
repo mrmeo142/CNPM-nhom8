@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1=title 
+    form(method='POST')
+        div.form-group
+            label(for='name') Name:
+            input#name.form-control(type='text', placeholder='Name of menu item' name='name' required value=(undefined===catagory ? '' : catagory.name) )
+        button.btn.btn-primary(type='submit') Submit
+    
+    if errors
+        ul 
+            for error in errors 
+                l1!=error.msg

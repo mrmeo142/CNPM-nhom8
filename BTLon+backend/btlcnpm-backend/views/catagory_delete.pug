@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+  h1 #{title}: #{catagory.name}
+
+  if foodWithCatagory.length
+    p #[strong Delete the following foods before attempting to delete this catagory.]
+    div(style='margin-left:20px;margin-top:20px')
+      h4 Foods
+      dl
+        each food in foodWithCatagory
+          dt
+            a(href=food.url) #{food.name}
+
+  else
+    p Do you really want to delete this catagory?
+
+    form(method='POST')
+      div.form-group
+        input#catagoryid.form-control(type='hidden', name='catagoryid', value=catagory._id )
+
+      button.btn.btn-primary(type='submit') Delete

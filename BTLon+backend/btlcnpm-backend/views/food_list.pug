@@ -1,0 +1,22 @@
+extends layout 
+
+block content 
+    h1(style='text-align:center;')=title
+    if food_list.length
+        for food in food_list 
+            // products
+            .container
+                .mon
+                    .product
+                        .hinhproduct
+                            img.sp(src='/images/crinkle cookies.jpg' alt='hinh1')
+                        .thongtin
+                            li
+                                a.ten(href=food.url) #{food.name}
+                            li
+                            a.giatien(href='')  #{food.price} #{food.priceUnit}
+                        .add
+                        form(action='')
+                        button ADD
+    else 
+        p There are no food items on the menu yet.

@@ -1,0 +1,15 @@
+extends layout 
+
+block content
+    h1=title
+        h4=food.name 
+        p #[strong Price:] #{food.price} #{food.priceUnit}
+        p #[strong Catagory:] 
+            each val, index in food.catagory    
+                a(href=val.url)  #{val.name}
+                if index < food.catagory.length - 1
+                 |,&nbsp;
+        p #[strong Description:] #{food.description}
+        a(href=food.url+'/delete') Delete item.
+        p
+        a(href=food.url+'/update') Update item.

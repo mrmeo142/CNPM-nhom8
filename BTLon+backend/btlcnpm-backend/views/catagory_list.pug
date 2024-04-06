@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  if catagory_list.length
+    ul
+      each catagory in catagory_list
+            .container
+                .mon
+                    .product
+                        .hinhproduct
+                            img.sp(src='/images/crinkle cookies.jpg' alt='hinh1')
+                        .thongtin
+                            li
+                                a.ten(href=catagory.url) #{catagory.name}
+
+  else
+    p There are no catagories.

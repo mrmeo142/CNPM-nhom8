@@ -1,0 +1,32 @@
+extends layout
+
+block content
+
+  h1 Catagory: #{catagory.name}
+
+  div(style='margin-left:20px;margin-top:20px')
+
+    h4 Foods
+    if allFoodWithCatagory.length
+      dl
+        each food in allFoodWithCatagory
+            .container
+                .mon
+                    .product
+                        .hinhproduct
+                            img.sp(src='/images/crinkle cookies.jpg' alt='hinh1')
+                        .thongtin
+                            li
+                                a.ten(href=food.url) #{food.name} 
+                            li
+                            a.giatien(href='')  #{food.price} #{food.priceUnit}
+                        .add
+                        form(action='')
+                        button ADD
+    else
+      p This catagory has no food.
+    hr
+    p
+    a(href=catagory.url+'/delete') Delete Catagory
+    br
+    a(href=catagory.url+'/update') Update Catagory
