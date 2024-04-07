@@ -9,7 +9,7 @@ block content
                 .mon
                     .product
                         .hinhproduct
-                            img.sp(src='/images/crinkle cookies.jpg' alt='hinh1')
+                            img.sp(src=`/images/${food.name}.jpg` onerror="this.onerror=null; this.src='/images/crinkle cookies.jpg'")
                         .thongtin
                             li
                                 a.ten(href=food.url) #{food.name}

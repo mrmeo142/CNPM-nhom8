@@ -8,8 +8,8 @@ block content
             .container
                 .mon
                     .product
-                        .hinhproduct
-                            img.sp(src='/images/crinkle cookies.jpg' alt='hinh1')
+                        //Nếu có ảnh của món tên là "tên catagory".jpg thì hiển thị nó. Nếu không thì hiển thị ảnh default là bánh quy gì gì đó.
+                        img.sp(src=`/images/${catagory.name}.jpg` onerror="this.onerror=null; this.src='/images/crinkle cookies.jpg'")
                         .thongtin
                             li
                                 a.ten(href=catagory.url) #{catagory.name}

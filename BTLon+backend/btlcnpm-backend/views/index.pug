@@ -2,8 +2,30 @@ extends layout
 
 block content
   h1= title
+    .banner
+      img(src='/images/cakess.jpg' alt='img2')
+      img(src='/images/bkg.avif' alt='img2')
+      img(src='/images/bkg2.avif' alt='img2')
+      script.
+        const bkg = document.querySelectorAll(".banner img")
+        const bkg1 = document.querySelector(".banner")
+        let index = 0
+        let number = bkg.length
+        //console.log(bkg)
+        bkg.forEach(function(image,index){
+        //console.log(image,index)
+        image.style.left = index*100 + "%"
+        })
+        function bgkslide(){
+        index++;
+        if(index>=number) {index=0}
+        console.log(index)
+        bkg1.style.left="-" +index*100 +"%"
+        }
+        setInterval(bgkslide,8000)
+
   p Welcome to #{title}
-  li
+  ul
               li
                 a(href='/main/foods') All foods
               li
