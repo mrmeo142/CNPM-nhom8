@@ -1,0 +1,312 @@
+body{
+	margin:0px;
+}
+.top{
+	width:100%;
+	height:60px;
+	padding:0px;
+	margin:0px;
+	
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+.logo{
+	text-align:center;
+	border-bottom:solid 1px #808080db;
+}
+.logo a:link, .logo a:visited{
+	color:black;
+	font-size:50px;
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+.menu{
+	background-image:url(img/blgr.avif);
+	    height: 60px;
+		position:fixed;
+		top:0%;
+		width:100%;
+		z-index:999;
+}
+#divleft{
+	padding-top: 5px;
+    width: 55%;
+    height: 50px;
+    float: left;
+    margin-left: 106px;
+    margin-top: -5px;
+}
+li{
+	list-style:none;
+}
+#divleft ul li{
+	float: left;
+	font-size:19px;
+	padding-right:58px;
+	margin-top:18px;
+}
+#divleft ul li a{
+	text-decoration:none;
+	color:black;
+}
+#divleft ul li a:hover{
+	color:blue;
+}
+#divright{
+	padding-top:22px;
+	width:25%;
+	height:50px;
+	float:left;
+	margin-top: -5px;
+}
+.giohang{
+	width:10%;
+	float:left;
+	margin-top: 12px;
+}
+.gh{
+	height:35px;
+	width:35px;
+}
+#txt{
+	padding-top:3px;
+}
+.banner{
+	width:100%;
+	padding-bottom:50px;
+	margin-top:5px;
+	display: block;
+	position: relative;
+	
+}
+  .banner img {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	top: 0;
+	left: 0;
+	object-fit: fill;
+	background-repeat:no-repeat;
+  }
+#bot{
+	color:black;
+	margin-top: 560px;
+}
+.mon{
+	margin-top:50px;
+}
+.sp{
+	width: 343px;
+    height: 255px;
+    margin-left: -40px; 
+    cursor: pointer;
+    margin-top: -40px;
+	border-radius: 10px;
+}
+.thongtin{
+	margin-top:7px;
+	padding:5px;
+}
+a.ten, .chitiet, .giatien{
+	font-family:"Papyrus";
+	margin-top:2px;
+}
+.thongtin li a{
+	text-decoration:none;
+	color:black;
+}
+.thongtin > li{
+	position: relative;
+}
+.chtiet{
+	position: absolute;
+	width:auto;
+	height:auto;
+	background-color:white;
+	display:none;
+	padding-top: 24px;
+	text-align:left;
+	margin-left: -35px;
+}
+.thongtin > li:hover .chtiet{
+	display:block;
+}
+.add form button{
+	width: 100px;
+    height: 35px;
+    margin-top: -125px;
+    cursor: pointer;
+    background-color: #f2ff00;
+	border-radius: 10px;
+	font-weight:bold;
+}
+.product{
+	width:263px;
+	height:314px;
+	border: solid 1px gray;
+	text-align:center;
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+	padding:40px;
+	margin-bottom:50px;
+	border-radius: 10px;
+}
+#follow ul li a{
+	text-decoration:none;
+	color:black;
+}
+#follow ul li a:hover{
+	color:blue;
+}
+span.social{
+	width:35px;
+	height:35px;
+	display:inline-block;
+}
+#Google{
+	background:url(img/logo.png);
+	background-position:0 0;
+}
+#Facebook{
+	background:url(img/logo.png);
+	background-position:-35px 0;
+}
+#Instagram{
+	background:url(img/logo.png);
+	background-position:-70px 0;
+}
+ul{
+	margin: 0;
+    padding: 0;
+}
+.txt{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -22px;
+    padding: 2px;
+}
+#follow{
+	float: left;
+    width: 16%;
+    margin-right: -3px;
+    margin-left: 14px;
+    padding: 40px;
+    margin-bottom: 25px;
+	margin-top: 20px;
+}
+footer{
+	background-image:url(img/cakes.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	background-size: cover;
+	margin-top:783px;
+	height:520px;
+}
+#i4{
+	font-size:25px;
+    padding-left: 620px;
+	font-family:" Verdana";
+	font-weight: bold;
+}
+#phone{
+	background:url(img/phone.jpg);
+}
+/*---------------Cart-------------------------*/
+.mycart{
+	font-size: 40px;
+    margin-left: 230px;
+}
+.left{
+	width: 727px;
+    float: left;
+    margin-top: 23px;
+	height:auto;
+}
+.left table{
+	width: 100%;
+    text-align: center;
+}
+.left table th{
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size: 25px;
+	color:#333;
+	border-collapse: collapse;
+	border-bottom: 2px solid #dddddd;
+}
+.left table p{
+	font-size:12px;
+	color:#333;
+}
+.left table input{
+	width: 30px;
+}
+.left table span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #dddddd;
+	cursor: pointer;
+}
+.left table td{
+	padding: 20px 50px 20px 62px;
+	border-bottom:2px solid #dddddd;
+}
+.left table td{
+	font-size:20px;
+
+}
+.right{
+	float:left;
+	width:400px;
+	flex:1;
+	padding-left:12px;
+	border-left:2px solid #dddddd;
+	height:500px;
+	margin-left: 10px;
+}
+.right table{
+	width: 100%;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+.right table th{
+	padding-bottom:30px;
+	font-size:25px;
+	color:#333;
+	border-collapse: collapse;
+}
+.right table td{
+	font-size:25px;
+	color:#333;
+	padding:6px 0;
+}
+.right table tr{
+	margin-left:5px;
+}
+.right table tr:nth-child(3) td{
+	border-bottom:2px solid #dddddd;
+}
+.pay{
+	font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+	margin-bottom: 10px;
+}
+.methodpayment{
+	margin-left:15px;
+}
+.submit{
+	margin-left: 175px;
+    margin-top: 20px;
+}
+.submit button{
+	width:100px;
+	height:30px;
+}
